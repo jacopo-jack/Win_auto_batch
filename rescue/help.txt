@@ -1,0 +1,26 @@
+------------------------------------------------------------------------------
+------------------------------------------------------------------------------
+Benvenuto su device rescue.
+Cosa fa lo script? 
+Disk_rescue ti aiuta ad automatizzare i processi legati alla pulizia
+di dischi e pennette usb danneggiati che con Windows non si riescono a 
+formattare utilizzando l'utility di sistema diskpart.
+------------------------------------------------------------------------------
+------------------------------------------------------------------------------
+Nota bene: diskpart richiede priviliegi d'amministrazione quindi se hai intenzione
+di pulire il disco scegliendo la seconda opzione dello script ti conviene sin da subito
+fare click destro sul mouse ed eseguirlo come amministratore altrimenti ti tocca
+uscire dal programma e usare tale modalita'.
+--------------------------------------------------------------------------------------
+---------------------------------------------------------------------------------------
+Una volta partito diskpart digita il comando list disk per avere una lista di dispositivi.
+Se non hai inserito il disco o la pennina danneggiata inseriscila e dai nuovamente 
+il comando. Attento a selezionare, con sel disk, il dispositivo corretto perche' poi 
+devi usare il comando clean  che pulira' tutto quanto e i dati verranno persi!
+------------------------------------------------------------------------------------------
+------------------------------------------------------------------------------------------
+Per concludere il tutto devi vedere se esplora file ti riconosce il dispositivo e renderlo
+nuovamente online tramite gestione disco. 
+Se premi il tasto 2 device_rescue lo fara' al
+posto tuo e non ti restera' altro che riaprirlo con privilegi amministrativi come spegato
+nel nota bene.
